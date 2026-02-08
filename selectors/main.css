@@ -1,0 +1,20 @@
+
+* {
+    color: yellow
+}
+
+p {
+    color: red;
+}
+
+.kurs-nomi {
+    color: blue;
+}
+
+#kurs-nomi {
+    color: orange;
+}
+
+[disabled] {
+    color: lime
+}

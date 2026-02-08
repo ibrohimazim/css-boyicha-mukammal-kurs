@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS</title>
+    <style>
+        div p {
+            background-color: yellow;
+        }
+        div > p {
+            background-color: yellow;
+        }
+        div + p {
+            background-color: yellow;
+        }
+        div ~ p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Avlod selektori</h2>
+    <p>Belgilangan elementlarning avlodlari bo'lgan barcha elementlarni tanlab oladi</p>
+    <div>
+        <p>Paragraph 1: "div"ni ichida</p>
+        <p>Paragraph 2: "div"ni ichida</p>
+        <section>
+            <p>Paragraph 3: "div"ni ichida</p>
+        </section>
+    </div>
+
+    <p>Paragraph 4: "div"ni ichida emas</p>
+    <p>Paragraph 5: "div"ni ichida emas</p>
+</body>
+</html>
