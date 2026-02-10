@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Forms</title>
     <style>
@@ -34,14 +35,17 @@
             background-color: #ddd;
             border-radius: 50%;
         }
+
         /* Sichqoncha olib borilganda orqa fon rangini o'zgartirish */
-        .form-control:hover input ~ .custom-radio{
+        .form-control:hover input~.custom-radio {
             background-color: #ccc;
         }
+
         /* Radio button tanlanganda, uning orqa fon rangini o'zgartirish */
-        .form-control input:checked ~ .custom-radio{
+        .form-control input:checked~.custom-radio {
             background-color: #2D8466;
         }
+
         /* Radio button tanlanganligini bildiruvchi belgi yaratish */
         .custom-radio:after {
             top: 8px;
@@ -56,26 +60,28 @@
         }
 
         /* Tanlangan paytida belgini ko'rsatish */
-        .form-control input:checked ~ .custom-radio::after{
+        .form-control input:checked~.custom-radio::after {
             display: block;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-            <h1>Style berilgan radio tugmalar</h1>
-            <label class="form-control">Radio 1
-                <input type="radio" checked="checked" name="radio" value="radio-1">
-                <span class="custom-radio"></span>
-            </label>
-            <label class="form-control">Radio 2
-                <input type="radio" name="radio" value="radio-2">
-                <span class="custom-radio"></span>
-            </label>
-            <label class="form-control">Radio 3
-                <input type="radio" name="radio" value="radio-3">
-                <span class="custom-radio"></span>
-            </label>
+        <h1>Style berilgan radio tugmalar</h1>
+        <label class="form-control">Radio 1
+            <input type="radio" checked="checked" name="radio" value="radio-1">
+            <span class="custom-radio"></span>
+        </label>
+        <label class="form-control">Radio 2
+            <input type="radio" name="radio" value="radio-2">
+            <span class="custom-radio"></span>
+        </label>
+        <label class="form-control">Radio 3
+            <input type="radio" name="radio" value="radio-3">
+            <span class="custom-radio"></span>
+        </label>
     </div>
 </body>
+
 </html>
