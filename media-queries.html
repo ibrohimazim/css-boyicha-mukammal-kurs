@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 400px;
+            background-color: red;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .box {
+                background-color: green;
+            }
+        }
+
+        .box2 {
+            width: 500px;
+            height: 400px;
+            background-color: red;
+        }
+
+        /* media so'rovlar asosiy styledan keyin kelishi kerak */
+
+        @media only screen and (max-width: 600px) {
+            .box2 {
+                background-color: green;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        600pxgacha qizil, 900pxgacha yashil va undan katta o'lchamlarda
+        ko'k rangga kiruvchi quti
+    </div>
+    <div class="box2">
+        Katta ekranda qizil, kichik ekranda yashil rangga
+        ega bo'ladigan quti
+    </div>
+</body>
+
+</html>
